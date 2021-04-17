@@ -1,0 +1,62 @@
+
+Data Structures:
+
+	- Measuring Time Complexity
+	- Big O Notations
+	- Array and LinkedList
+	- Stacks and Queues
+	
+---------------------------------------------------------------------
+
+Data Structures helps you to write differnt algorithms to complete a particular tasks and recommand the one which is having either the lesser time complexity or space complexity.
+
+	Trade Off: 
+	
+In Data Structures, we need to trade off between time complexity and space complexity. But major focus should be on time complexity.
+
+	Delhi -> Mumbai
+	
+	Travel by Train (Cheaper, More Time)
+	Travel by Flight (Less Time, Costly)
+
+--------------------------------------------------------------------
+
+Measuring Time Complexity:
+
+	Big O Notations helps to measure the time complexity.
+	
+	Big O Notations:
+	
+		Constant Big O Notation - O(1)
+		Logarithmic Big O Notation - O(log n)
+		Linear Big O Notation - O(n)
+		Quadratic Big O Notation - O(n^2)
+		Exponential Big O Notation - O(2^n)
+		
+-------------------------------------------------------------------
+
+Arrays:
+				Best-Case	Worst-Case
+	Lookup:		O(1)		O(n)
+	Insert:		O(n)		O(n)
+	Delete:		O(n)		O(n)
+	
+--------------------------------------------------------------------	
+
+LinkedList:
+
+	Lookup:
+	Lookup By Value: O(n)
+	Lookup By Index: O(n)
+	
+	Insert:
+	Insert At the End: O(1)
+	Insert At the Begining: O(1)
+	Inser In the Middle: O(n)
+	
+	Delete:
+	Delete from the End: O(1)
+	Delete from the Begining: O(1)
+	Delete from the Middle: O(n)
+	
+------------------------------------------------------------------

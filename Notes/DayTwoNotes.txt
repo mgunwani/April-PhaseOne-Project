@@ -1,0 +1,54 @@
+
+Stack: Linear Data Structure
+
+	LIFO (Last In First Out)
+	
+Application of Stack:
+
+	1. Implementing the Undo Feature
+	2. Building Compilers (Syntax Checking)
+	3. Building Navigation (Forward/Back)
+	4. Evaluating Expressiong (E.g. 1 + 2 * 3)
+	
+Operations: 
+
+	1. push(item) 	- inserts new item at the top.
+	2. pop()  		- popped out or deleted the last added item from stack.
+	3. peek() 		- returns the item that is ready to pop or delete.
+	4. isEmpty() 	- tells us whether the stack is empty or not. 
+	
+-------------------------------------------------------------------
+
+Queue: Linear Data Structure
+
+	FIFO (First In First Out)
+
+Applications of Queue:
+	
+	1. Printers
+	2. Operating Systems
+	3. Web Servers
+	4. Live Support Systems
+
+Operations:
+
+	1. Enqueue O(1)	: to add item into the queue to rear.
+	2. Dequeue O(1)	: to delete an item from the queue from front.
+	3. peek O(1): to get the item from queue which is ready to dequeue/delete.
+	4. isEmpty O(1)	: to check whether the queue is empty of not.
+	
+-----------------------------------------------------------------	
+
+Linear Search:
+
+					Best-Case	Worst-Case
+Time Complexity:	O(1)		O(n)
+
+-----------------------------------------------------------------
+
+Binary Search:
+
+					Best-Case	Worst-Case
+Time Complexity		O(log n)	O(log n)
+
+-----------------------------------------------------------------					
